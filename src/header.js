@@ -6,7 +6,7 @@ function Header() {
         <div className="mainheader">
             <div className="headerelements">
                 <div className="menulogo">
-                    <a href="https://www.devikTech.com"><img alt="DevkiTech" src={require("C:/Users/Hp/first-app-sample/src/images/devikTech.Logo.png")}/></a>
+                    {/* <a href="https://www.devikTech.com"><img alt="DevkiTech" src={require("C:/Users/Hp/first-app-sample/src/images/devikTech.Logo.png")}/></a> */}
                 </div>
                 <div id="menuelements" className="menu_list">
                     <li><a href="Courses.js">Courses</a></li>
