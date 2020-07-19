@@ -1,6 +1,8 @@
 import React from "react";
 import footerlogo from "./images/devikTech.Logo.png"
-
+import facebook from "./images/facebook.png"
+import insta from "./images/instagram.png"
+import linkdin from "./images/linkdin.png"
 
 function Footer() {
      return (
@@ -61,7 +63,7 @@ function Footer() {
                          <li><a href="#index">Web Developer</a></li>
                     </div>
                     <div className="footerimage1">
-                         <img alt="DevkiTech" src={require("C:/Users/Hp/first-app-sample/src/images/footerImage.png")} width="170px" height="170px" />
+                         <img alt="DevkiTech" src={footerlogo} width="170px" height="170px" />
                     </div>
                </div>
 
@@ -76,15 +78,15 @@ function Footer() {
                     </div>
                     <div className="copyrightdiv">
                          <div className="socialmedia">
-                              <a href="index.html"><img alt="DevkiTech" src={require("C:/Users/Hp/first-app-sample/src/images/facebook.png")} width="40px" height="40px" /></a>
+                              <a href="index.html"><img alt="DevkiTech" src={facebook} width="40px" height="40px" /></a>
                          </div>
 
                          <div className="socialmedia">
-                              <a href="index.html"><img alt="DevkiTech" src={require("C:/Users/Hp/first-app-sample/src/images/instagram.png")} width="40px" height="40px" /></a>
+                              <a href="index.html"><img alt="DevkiTech" src={insta} width="40px" height="40px" /></a>
                          </div>
 
                          <div className="socialmedia">
-                              <a href="index.html"><img alt="DevkiTech" src={require("C:/Users/Hp/first-app-sample/src/images/linkdin.png")} width="40px" height="40px" /></a>
+                              <a href="index.html"><img alt="DevkiTech" src={linkdin} width="40px" height="40px" /></a>
                          </div>
                     </div>
                </div>
