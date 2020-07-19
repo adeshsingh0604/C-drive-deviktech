@@ -14,17 +14,18 @@ import './mainfooter.css';
 import './courses.css';
 // import Form from './form.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Courses from './Courses.js';
-import { Route } from "react-router-dom";
+// import Courses from './Courses.js';
+// import { Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
+      <p>Hi Adesh</p>
       {/* <Route exact path="/" component={Home} /> */}
-      <Header/>
+      {/* <Header/>
       <Route exact path="/Courses.js" component={Courses} />
       <Route exact path="/Aboutus.js" component={Aboutus} />
-      <MainFooter/>
+      <MainFooter/> */}
     </div>
   );
 }
