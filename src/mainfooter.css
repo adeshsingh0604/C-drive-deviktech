@@ -1,0 +1,137 @@
+.mainfooter{
+    font-family: 'Nunito', sans-serif;
+    height: auto;
+    /* background-color: #F7F8F9; */
+}
+
+.mainfooter a{
+    color: black;
+}
+
+.mainfooter a:hover{
+    color: rgb(8, 7, 104);
+    text-decoration: none;
+}
+
+.footerwhydiv{
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1%;
+    background-image: linear-gradient(to right, rgb(12, 84, 152), rgb(34, 137, 221));
+    color: white;
+}
+
+.footerlogodiv{
+    /* border: 2px solid olive; */
+    width: 30%;
+}
+
+.footerwhatparadiv{
+    /* border: 2px solid orange; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.whatheadingdiv{
+    /* border: 2px solid seagreen; */
+    text-align: left;
+}
+
+.whatparadiv{
+    /* border: 2px solid navy; */
+    text-align: left;
+    /* width: 70%; */
+}
+
+.linksfooterdiv{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1%;
+
+}
+
+.footercourses1{
+    text-align: left;
+    /* border: 2px solid seagreen; */
+    /* margin: 5%; */
+}
+
+.footerworklinks1{
+    text-align: left;
+    /* border: 2px solid seagreen; */
+    /* margin: 5%; */
+    
+    text-decoration: none;
+}
+.footerworklinks1 li{
+    list-style: none;
+    text-align: left;
+    /* border: 2px solid seagreen; */
+}
+
+.footerk12courses1 li{
+    list-style: none;
+    text-align: left;
+    /* border: 2px solid seagreen; */
+}
+
+.footercourses1 li{
+    list-style: none;
+    text-align: left;
+    /* border: 2px solid seagreen; */
+}
+
+.footerk12courses1{
+    text-align: left;
+    /* border: 2px solid seagreen; */
+    /* margin: 5%; */
+}
+
+
+.footercourses1 h3{
+    font-size: x-large;
+}
+
+.footerk12courses1 h3{
+    font-size: x-large;
+}
+
+.footerworklinks1 h3{
+    font-size: x-large;
+}
+
+.footersocialdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: 2px solid hotpink; */
+    /* padding: 1%; */
+    background-image: linear-gradient(to right, rgb(12, 84, 152), rgb(34, 137, 221));
+    color: white;
+    /* padding: 1%; */
+    
+}
+
+.contactseactiondiv{
+    /* border: 2px solid hotpink; */
+    
+}
+
+.copyrightdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.socialseactiondiv p{
+    font-size: medium;
+    /* border: 2px solid hotpink; */
+    position: relative;
+    top: 10px;
+}

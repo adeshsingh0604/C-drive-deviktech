@@ -1,0 +1,434 @@
+
+.mainAboutarea{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 70vh;
+}
+
+.aboutusimage{
+    /* border: 2px solid crimson; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ah1{
+    text-align: left;
+    /* border: 2px solid crimson; */
+    font-size: xx-large;
+}
+
+.aboutuspara{
+    width: 50%;
+    /* border: 2px solid crimson; */
+    margin: 2%;
+    color: #666674;
+    
+}
+
+.aboutpara{
+    text-align: center;
+    /* margin-top: 5%; */
+    /* border: 2px solid crimson; */
+}
+
+.applybutton{
+    font-size: large;
+      padding: 8px 18px;
+      transition-duration: 0.3s;
+      cursor: pointer;
+      background-color: rgba(255, 255, 255, 0); 
+      color:#1d04fad8;
+      border: 2px solid #0084ff80;  
+      border-radius: 10px;
+      font-family: 'Nunito', sans-serif;
+      cursor: pointer;
+      margin-top: 5px;
+      margin-right: 10px;
+  
+}
+  
+.applybutton:hover{
+    background-image: linear-gradient(to right, rgba(29, 4, 250, 0.479), rgba(0, 162, 255, 0.849));
+    color: white;
+    box-shadow: 0px 1px 0px 0px rgba(8, 142, 252, 0.459);
+    border: 2px solid white;
+}
+
+.founderbutton{
+    font-size: large;
+      padding: 8px 18px;
+      transition-duration: 0.3s;
+      cursor: pointer;
+      background-color: rgba(255, 255, 255, 0); 
+      color:#1d04fad8;
+      border: 2px solid #0084ff80;  
+      border-radius: 10px;
+      font-family: 'Nunito', sans-serif;
+      cursor: pointer;
+      margin-top: 5px;
+      margin-right: 10px;
+  
+}
+  
+.founderbutton:hover{
+    background-image: linear-gradient(to right, rgba(29, 4, 250, 0.479), rgba(0, 162, 255, 0.849));
+    color: white;
+    box-shadow: 0px 1px 0px 0px rgba(8, 142, 252, 0.459);
+    /* border: 2px solid white; */
+}
+
+
+
+.aboutdescription{
+      /* background-color: #fafafa; */
+      height: 100vh;
+      /* border: 2px solid rebeccapurple; */
+      padding: 2%;
+      margin: 2%;
+      display: flex;
+      flex-direction: column;
+      /* justify-content: space-evenly; */
+}
+
+.aboutcompany{
+    /* border: 2px solid black; */
+    color: #474749;
+}
+
+.abouth{
+    /* height: 50vh; */
+    /* padding: 5%; */
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid black; */
+    justify-content: space-around;
+}
+
+.abouth1{
+    /* height: 50vh; */
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid black; */
+    justify-content: space-around;
+}
+
+.Companyintro{
+    border: 2px solid rgba(0, 0, 0, 0.685);
+    width: 30vh;
+    height: 240px;
+    border-radius: 10px;
+    /* color: rgb(240, 240, 240); */
+}
+
+.companycontent{
+    /* border: 2px solid blanchedalmond; */
+    margin: 20px;
+}
+
+.mainAboutfounder{
+    /* border: 2px solid black; */
+    /* border-radius: 30px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 70vh;
+    background-color: rgba(100, 148, 237, 0.233);
+    /* background-image: url("../src/images/aboutfounder.png"); */
+    /* background-repeat: repeat; */
+    /* background-position: center; */
+    /* margin: 100px; */
+    
+}
+
+.aboutusfounderimage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px solid chartreuse; */
+}
+
+.aboutusfounderimage img{
+    /* border: 2px solid red; */
+    border-radius: 50%;
+}
+
+
+.aboutusfounderpara{
+    width: 40%;
+    /* border: 2px solid crimson; */
+    justify-content: center;
+    /* height: 50%; */
+    /* background-color: rgba(0, 89, 255, 0.788); */
+    /* opacity: 0.8; */
+    padding: 2%;
+}
+
+
+.aboutfounderheading a{
+    color: navy;
+    text-decoration: none;
+}
+
+.founderpara{
+    text-align: left;
+    /* margin-top: 5%; */
+    /* border: 2px solid chartreuse; */
+    /* color: white; */
+}
+
+.card1 {
+    /* background: rgba(104, 172, 235, 0.473); */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid rgba(0, 132, 255, 0.89);
+    cursor: pointer;
+    align-items: center;
+    margin: 1%;
+    padding: 5%;
+}
+  
+/* .card:hover {
+    transform: translateY(-5px) scale(1.005) ;
+    box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+      0 20px 40px rgba(97, 160, 255, 0.719);
+} */
+  
+.card p {
+    font-size: medium;
+    font-weight: bold;
+    /* color: #666674; */
+    margin: 30px;
+}
+  
+@media screen and (min-width:1150px){
+    .mainAboutarea{
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: auto;
+    }
+    .aboutusimage{
+        margin: 2%;
+        /* border: 2px solid red; */
+    }
+
+    .ah1{
+        text-align: left;
+        /* border: 2px solid rgba(0, 0, 128, 0.473); */
+        margin: auto;
+        /* font-size: xx-large; */ 
+        border-radius: 10px;
+          
+    }
+
+    .aboutuspara{
+        /* width: auto; */
+        /* font-size: medium; */
+        /* border: 2px solid crimson; */
+        /* text-align: left; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: left; */
+        text-align: left;
+    }
+    
+    .aboutpara{
+        text-align: left;
+        /* margin-top: none; */
+        /* border: 2px solid navy; */
+        margin: auto;
+    }
+
+    .mainAboutfounder{
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: auto;
+        background-color: rgba(100, 148, 237, 0.233);
+        /* width: 50%; */
+
+    }
+
+    .aboutusfounderimage{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* border: 2px solid chartreuse; */
+        align-items: center;
+        width: 50%;
+        /* margin-bottom: 2%; */
+    }
+
+    .aboutusfounderimage img{
+        /* width: 50vh;
+        height: 50vh; */
+        margin: 1%;
+        /* border:2px solid rgba(0, 102, 255, 0.445); */
+    }
+
+    .aboutusfounderpara{
+        width: 50%;
+        /* border: 2px solid crimson; */
+    }
+    
+    .founderpara{
+        text-align: center;
+        /* border: 2px solid chartreuse; */
+        margin: 2%; 
+    }
+
+    .ah2{
+        /* border: 2px solid blue; */
+        margin: auto;
+    }
+
+    .aboutdescription{
+        height: none;
+        /* border: 2px solid darkviolet; */
+        /* display: none; */
+    }
+}
+
+@media screen and (max-width:1150px){
+    .mainAboutarea{
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: start; */
+        height: auto;
+        font-size: auto;
+    }
+    .aboutusimage{
+        /* border: 2px solid black;  */
+        align-content: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .aboutusimage img{
+        width: 60%;
+        margin-top: 2%;
+    }
+
+    .ah1{
+        text-align: center;
+        /* border: 2px solid rgba(0, 0, 128, 0.473); */
+        margin: auto;
+        font-size: x-large; 
+        /* border-radius: 10px; */
+          
+    }
+
+    .aboutuspara{
+        width: auto;
+        /* font-size: medium; */
+        /* border: 2px solid crimson; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .aboutpara{
+        text-align: center;
+        /* margin-top: none; */
+        /* border: 2px solid navy; */
+        margin: auto;
+    }
+
+    .mainAboutfounder{
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        height: auto;
+        background-color: rgba(100, 148, 237, 0.233);
+
+    }
+
+    .aboutusfounderimage{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* border: 2px solid chartreuse; */
+        align-items: center;
+    }
+
+    .aboutusfounderimage img{
+        width: 50%;
+        height: 50%;
+        margin: 4%;
+        /* border:2px solid rgba(0, 102, 255, 0.445); */
+    }
+
+    .aboutusfounderpara{
+        width: auto;
+        /* border: 2px solid crimson; */
+    }
+    
+    .aboutfounderheading{
+        /* border: 2px solid black; */
+        text-align: center;
+        padding: auto;
+        /* margin: -3%; */
+    }
+    
+    
+    .founderpara{
+        text-align: center;
+        /* border: 2px solid chartreuse; */
+        margin: 2%; 
+    }
+
+    .ah2{
+        /* border: 2px solid blue; */
+        margin: auto;
+    }
+
+    .aboutdescription{
+        height: auto;
+        /* border: 2px solid darkviolet; */
+        /* display: none; */
+    }
+    
+    .abouth{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid black; */
+        padding: auto;
+    }
+    
+    .abouth1{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid black; */
+        padding: auto;
+    }
+
+    .card1 {
+        border: 2px solid rgba(0, 132, 255, 0.89);
+        margin: 2%;
+        padding: 2%;
+    }
+
+
+}
+
+@media screen and (max-width:800px){
+    
+}
+
+@media screen and (max-width:600px){
+    
+}
+
+@media screen and (max-width:480px){
+    
+}

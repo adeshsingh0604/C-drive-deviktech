@@ -1,0 +1,154 @@
+.MainCoursesArea{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50vh;
+}
+
+.coursesimage{
+    /* border: 2px solid crimson; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* width: 60%; */
+}
+
+.coursesparadetails{
+    width: 40%;
+    /* border: 2px solid crimson; */
+    margin: 2%;
+    color: #666674;
+    border: 2px solid rgba(20, 107, 220, 0.452);
+    padding: 2%;
+
+    
+}
+
+.coursesheading{
+    text-align: center;
+    margin: 2%;
+    /* border: 2px solid crimson; */
+    /* font-size: xx-large; */
+}
+
+
+
+.coursespara{
+    text-align: left;
+    margin: 2%;
+    /* border: 2px solid crimson; */
+}
+
+.coursesapplybutton{
+    font-size: large;
+      padding: 8px 18px;
+      transition-duration: 0.3s;
+      cursor: pointer;
+      background-color: rgba(255, 255, 255, 0); 
+      color:#1d04fad8;
+      border: 2px solid #0084ff80;  
+      border-radius: 10px;
+      font-family: 'Nunito', sans-serif;
+      cursor: pointer;
+      margin-top: 5px;
+      margin-right: 10px;
+  
+}
+  
+.coursesapplybutton:hover{
+    background-image: linear-gradient(to right, rgba(29, 4, 250, 0.479), rgba(0, 162, 255, 0.849));
+    color: white;
+    box-shadow: 0px 1px 0px 0px rgba(8, 142, 252, 0.459);
+    border: 2px solid white;
+}
+
+.mainFeaturescourses{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 40vh;
+    border: 2px solid red;
+}
+
+
+.box{
+    border: 2px solid rebeccapurple;
+    width: 20%;
+}
+
+/* .syllabusarea{
+    margin: 5%;
+} */
+
+.projectarea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50vh;
+    padding: 2%;
+}
+
+
+@media screen and (max-width:1150px){
+    .MainCoursesArea{
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: start; */
+        height: auto;
+        font-size: auto;
+    }
+    .coursesimage{
+        /* border: 2px solid black;  */
+        align-content: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .coursesimage img{
+        width: 80%;
+        margin: 2%;
+    }
+
+    .coursesheading{
+        text-align: center;
+        /* border: 2px solid rgba(0, 0, 128, 0.473); */
+        margin: auto;
+        /* font-size: x-large;  */
+        /* border-radius: 10px; */
+          
+    }
+
+    .coursesparadetails{
+        width: auto;
+        /* font-size: medium; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: auto;
+
+    }
+
+    .mainFeaturescourses{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: auto;
+        border: 2px solid red;
+    }
+    
+    
+    .box{
+        border: 2px solid rebeccapurple;
+        width: auto;
+    }
+    
+
+    .projectarea{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: auto;
+        padding: auto;
+    }
+}
