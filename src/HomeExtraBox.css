@@ -1,0 +1,13 @@
+.homeextarbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 2px solid navy ;
+    height: 20vh;
+}
+
+.extarbox{
+    border: 2px solid navy ;
+    padding: 4%;
+
+}

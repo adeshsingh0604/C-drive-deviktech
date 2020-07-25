@@ -1,0 +1,33 @@
+.coursessection{
+    border: 2px solid red;
+    padding: 0px 190px 0px 190px;
+}
+
+
+.Slider1{
+    /* background-image: url(./images/Sliders\ \(1\).jpg); */
+    background-color: rgb(206, 206, 206);
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.sliderheading1{
+    border: 2px solid rgb(0, 255, 0);
+    padding: 10%;
+    /* width: 50%; */
+
+}
+
+
+.coursescard{
+    border: 2px solid rgb(255, 0, 221);
+    margin: 2%;
+}
+
+.coursescard h1{
+    border: 2px solid rgb(136, 255, 0);
+    font-size: medium;
+}

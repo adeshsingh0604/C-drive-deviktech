@@ -1,8 +1,9 @@
 import React from "react";
-import footerlogo from "./images/devikTech.Logo.png"
-import facebook from "./images/facebook.png"
-import insta from "./images/instagram.png"
-import linkdin from "./images/linkdin.png"
+// import footerlogo from "./images/devikTech.Logo.png"
+import footerImage from "./images/footerImage.png"
+import footerLogoWhite from "./images/Logo.White.png"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faInstagram, faLinkedin, faYoutube, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
 function Footer() {
      return (
@@ -13,7 +14,8 @@ function Footer() {
                     {/* footer Image */}
 
                     <div className="footerlogodiv">
-                         <img alt="DevkiTech" src={footerlogo} width="400px" height="200px" />
+                         <img alt="DevkiTech" src={footerImage} width="300px" height="300px" />
+
                     </div>
 
                     {/* footer WhatElseToKnow para Seaction */}
@@ -26,6 +28,7 @@ function Footer() {
                          <div className="whatparadiv">
                               <p>We provide Live sessions by the industry experts where you get to know about the various paradigms of problem solving and their applications in the real world. We provide one to one sessions for all types of doubt clarifications. We provide Live sessions by the industry experts where you get to know about the various paradigms of problem solving and their applications in the real world.</p>
                               <p>Contact us 9117018454 or 9718365756</p>
+                              <button className="footerbutton">Book A Demo</button>
                          </div>
 
                     </div>
@@ -63,7 +66,14 @@ function Footer() {
                          <li><a href="#index">Web Developer</a></li>
                     </div>
                     <div className="footerimage1">
-                         <img alt="DevkiTech" src={footerlogo} width="170px" height="170px" />
+                         <div>
+                              <img alt="DevkiTech" className="footerimage" src={footerLogoWhite} width="170px" height="100px" />
+                         </div>
+                         <div>
+                              <button className="knowmorebutton">Know More</button>
+                         </div>
+
+
                     </div>
                </div>
 
@@ -74,19 +84,30 @@ function Footer() {
 
                <div className="footersocialdiv">
                     <div className="socialseactiondiv">
-                         <h3><p>Copyright © 2020 All rights reserved | <a className="footer-link" href="index.html">DevikTech</a></p></h3>
+                         Copyright © 2020 DevikTech Education LLP India, All rights reserved. | <a className="footer-link" href="index.html">DevikTech</a>
+                    </div>
+                    <div className="socialseactiondiv">
+                         <a href="index.html">Teams and Condition</a>
+                    </div>
+                    <div className="socialseactiondiv">
+                         <a href="index.html">Private policy</a>
                     </div>
                     <div className="copyrightdiv">
                          <div className="socialmedia">
-                              <a href="index.html"><img alt="DevkiTech" src={facebook} width="40px" height="40px" /></a>
+                              <a href="index.html"><FontAwesomeIcon icon={faFacebook} color="#30D3F6" /></a>
                          </div>
 
                          <div className="socialmedia">
-                              <a href="index.html"><img alt="DevkiTech" src={insta} width="40px" height="40px" /></a>
+                              <a href="index.html"><FontAwesomeIcon icon={faInstagram} color="#30D3F6" /></a>
                          </div>
-
                          <div className="socialmedia">
-                              <a href="index.html"><img alt="DevkiTech" src={linkdin} width="40px" height="40px" /></a>
+                              <a href="index.html"><FontAwesomeIcon icon={faLinkedin} color="#30D3F6" /></a>
+                         </div>
+                         <div className="socialmedia">
+                              <a href="index.html"><FontAwesomeIcon icon={faYoutube} color="#30D3F6" /></a>
+                         </div>
+                         <div className="socialmedia">
+                              <a href="index.html"><FontAwesomeIcon icon={faWhatsapp} color="#30D3F6" /></a>
                          </div>
                     </div>
                </div>

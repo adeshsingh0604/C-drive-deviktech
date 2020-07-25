@@ -1,27 +1,28 @@
 import React from "react";
 import burger_menu from "./images/burger_menu.png"
+// import headerlogo from "./images/devikTech.Logo.png"
+import footerLogoWhite from "./images/Logo.White.png"
+import { NavLink } from 'react-router-dom';
+
 
 function Header() {
     return (
         <div className="mainheader">
             <div className="headerelements">
                 <div className="menulogo">
-                    {/* <a href="https://www.devikTech.com"><img alt="DevkiTech" src={require("C:/Users/Hp/first-app-sample/src/images/devikTech.Logo.png")}/></a> */}
+                    <NavLink className="linksheader" to="/"><img alt="DevkiTech" src={footerLogoWhite} /></NavLink>
                 </div>
                 <div id="menuelements" className="menu_list">
-                    <li><a href="Courses.js">Courses</a></li>
-                    {/* <li><a href="https://www.devikTech.com">Why Us</a></li> */}
-                    {/* <li><a href="https://www.devikTech.com">Reviews</a></li> */}
-                    {/* <li><a href="https://www.devikTech.com">Contact Us</a></li> */}
-                    <li><a href="Aboutus.js">About Us</a></li>
-                    <li><a href="https://www.devikTech.com">Internship</a></li>
+                    <NavLink className="linksheader" to="/Courses">Courses</NavLink>
+                    <NavLink className="linksheader" to="/Aboutus">About Us</NavLink>
+                    <NavLink className="linksheader" to="/Internship">Internship</NavLink>
                 </div>
             </div>
             <div className="headerbutton">
                 <button className="applybuttonheader">Enroll Now</button>
             </div>
             <a href="Aboutus.js" id="iconbar" onClick="responsive_menu()">
-                    <img src={burger_menu} alt="menu-icon"/>
+                <img src={burger_menu} alt="menu-icon" />
             </a>
 
 
@@ -74,12 +75,12 @@ function Header() {
 //             <div>
 //                 <h2 type="button" onClick={this.changename4}>{this.state.courses}</h2>
 //             </div>
-            
-               
-            
-            
+
+
+
+
 //         </div>
-    
+
 //         )
 //     }
 // }
