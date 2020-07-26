@@ -15,10 +15,10 @@ const AboutArea = styled("div")`
 font-family: 'Nunito', sans-serif;
 `
 
-// const Aboutimagearea = styled("div")`
-// background-image: url(${'About'});
-// height: 50vh;
-// `
+ const Aboutimagearea = styled("div")`
+ background-image: url(${About});
+ height: 50vh;
+ `
 
 
 const MainAboutarea = styled("div")`
@@ -149,12 +149,12 @@ padding: 2%;
 function Aboutus() {
     return (
         <AboutArea>
-            <div className="Aboutimagearea">
+           {/*  <div className="Aboutimagearea">
                 <p>About Us</p>
-            </div>
-            {/* <Aboutimagearea>
+            </div> */}
+            <Aboutimagearea>
                 <p>About Us</p>
-            </Aboutimagearea> */}
+            </Aboutimagearea> 
             <MainAboutarea>
                 <Aboutuspara>
                     <Ah1>Welcome to DevikTECH</Ah1>
