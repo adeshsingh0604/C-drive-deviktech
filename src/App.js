@@ -12,23 +12,29 @@ import './courses.css';
 // import Form from './form.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Courses from './Courses.js';
+import ThreeDModel from './ThreeDModel.js';
 import { BrowserRouter as Router, Switch } from 'react-router-dom';
 import Route from 'react-router-dom/Route';
-
+import HeroImage from './heroImage.js';
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <Header />
+        {/* <Header/> */}
         <Switch>
-          <Route exact path="/" strict component={Home} />
-          <Route exact path="/Aboutus" strict component={Aboutus} />
-          <Route exact path="/Courses" strict component={Courses} />
+          <Route exact path="/" strict component={ThreeDModel} />
+          <Route exact path="/Home" strict component={Home} />
+          {/* <Route exact path="/Aboutus" strict component={Aboutus} />
+          <Route exact path="/Courses" strict component={Courses} /> */}
+         
         </Switch>
-        <MainFooter/>
+        {/* <HeroImage/> */}
+        {/* <MainFooter/> */}
       </div>
     </Router>
+
+    
 
   );
 }

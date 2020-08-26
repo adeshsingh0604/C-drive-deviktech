@@ -16,6 +16,7 @@ function Header() {
                     <NavLink className="linksheader" to="/Courses">Courses</NavLink>
                     <NavLink className="linksheader" to="/Aboutus">About Us</NavLink>
                     <NavLink className="linksheader" to="/Internship">Internship</NavLink>
+                    <NavLink className="linksheader" to="/Home">Sliders</NavLink>
                 </div>
             </div>
             <div className="headerbutton">
