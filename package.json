@@ -24,7 +24,7 @@
     "react-three-fiber": "^2.0.0",
     "styled-components": "^5.1.1",
     "swiper": "^6.0.4",
-    "three": "^0.119.1",
+    "three": "^0.137.0",
     "three-gltf-loader": "^1.111.0"
   },
   "scripts": {
